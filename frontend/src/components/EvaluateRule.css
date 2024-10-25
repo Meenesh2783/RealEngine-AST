@@ -1,0 +1,33 @@
+/* Evaluate Rule Form Styles */
+.evaluate-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .evaluate-form input,
+  .evaluate-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .evaluate-form textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  .evaluate-form button {
+    padding: 10px;
+    border: none;
+    background-color: #2196f3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .evaluate-form button:hover {
+    background-color: #1976d2;
+  }
+  

@@ -1,0 +1,27 @@
+/* Create Rule Form Styles */
+.rule-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .rule-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .rule-form button {
+    padding: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .rule-form button:hover {
+    background-color: #45a049;
+  }
+  
